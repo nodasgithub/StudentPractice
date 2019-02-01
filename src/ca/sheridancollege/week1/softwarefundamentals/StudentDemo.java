@@ -13,6 +13,15 @@ public class StudentDemo
 {
   private String studentID;
   private String name;
+  private String subject;
+
+    public String getSubject() {
+        return subject;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
   
   /**
    * A constructor to pass in the given ID and then name
